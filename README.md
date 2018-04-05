@@ -40,17 +40,27 @@
 
 ## 目录结构
 ```
-/docs           文档
-/engine         引擎核心
-    /features   特征
-    /clusters   聚类算法
-    /monitors
-
-/bin            可执行命令
-/ui             Web UI
+/docs               文档
+/engine             引擎核心
+    /features       特征
+    /clusters       聚类算法
+    /monitors       
+    /libs           类库
+        /evaluators 评估函数
+/tests              单元测试
+/bin                可执行命令
+/ui                 Web UI
 ```
 
 ## 数据库
 10年以来的 3000只个股的如下数据
 * 原始数据
 * 5分钟的数据
+
+
+## 开发任务
+[ ] 搭建程序框架
+[ ] 建立原始数据的数据库
+[ ] 统计函数
+[ ] 编写聚类算法特征
+[ ] 编写特征算法特征
